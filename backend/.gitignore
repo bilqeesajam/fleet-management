@@ -63,19 +63,10 @@ staticfiles/
 instance/
 .webassets-cache
 
-# FastAPI / Starlette specific
-.env
-.env.*
-!.env.example
-
 # Logs
 logs/
 *.log
 log/
-
-# Environment variables
-.env.local
-.env.*.local
 
 # Database
 *.db
@@ -137,7 +128,6 @@ docker-compose.override.yml
 secrets/
 config/secrets/
 *.secret
-.env.secrets
 
 # Backup files
 *.bak
